@@ -27,8 +27,8 @@
 
     for (let i in colours) {
         text_load = `${text_load}## ${colours[i]}<br>
-        team add col_${colours[i]} dummy<br>
-        team modify col_${colours[i]} colour ${colours[i]}<br>
+        team add col_${colours[i]}<br>
+        team modify col_${colours[i]} color ${colours[i]}<br>
         scoreboard objectives add col_${colours[i]} trigger<br>`;
     }
 
