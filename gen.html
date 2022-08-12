@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://plexion.dev/css/reset.css">
+    <link rel="stylesheet" href="https://plexion.dev/css/style.css">
+
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Name Colours generate</title>
+</head>
+<body class="dark">
+    <section class="download-steps header-bar" style="top: initial; height: 86px;">
+        <span class="logo"><h5>Name colour generator</h5></span>
+    </section>
+    <section style="padding: 15px var(--padding-min);">
+        <br><label class="overl">namecol:load</label>
+        <div id="text_load"></div>
+    </section>
+</body>
+<script>
+    let text_load = '';
+
+    let colours = ['black','dark_blue','dark_green','dark_aqua','dark_red','dark_purple','gold','gray','dark_gray','blue','green','aqua','red','light_purple','yellow','white'];
+
+    for (let i in colours) {
+        text_load = `${text_load}## ${colours[i]}<br>
+        team add col_${colours[i]} dummy<br>
+        team modify col_${colours[i]} colour ${colours[i]}<br>
+        scoreboard objectives add col_${colours[i]} trigger<br>`;
+    }
+
+    document.getElementById('text_load').innerHTML = text_load;
+</script>
