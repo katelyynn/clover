@@ -2,6 +2,8 @@
 
 
 # teams & scoreboards
+## none
+scoreboard objectives add col_none trigger
 ## black
 team add col_black
 team modify col_black color black

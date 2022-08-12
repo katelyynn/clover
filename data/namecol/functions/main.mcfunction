@@ -2,6 +2,9 @@
 
 
 # detect & enable triggers
+## none
+scoreboard players enable @a col_none
+execute as @a if score @s col_none matches 1.. run function namecol:join/none
 ## black
 scoreboard players enable @a col_black
 execute as @a if score @s col_black matches 1.. run function namecol:join/black
