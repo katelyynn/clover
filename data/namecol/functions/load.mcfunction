@@ -1,7 +1,7 @@
 # NAMECOL /reload
 
 
-# teams
+# teams & scoreboards
 ## black
 team add col_black
 team modify col_black color black

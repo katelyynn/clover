@@ -18,10 +18,16 @@
     <section style="padding: 15px var(--padding-min);">
         <br><label class="overl">namecol:load</label>
         <div id="text_load"></div>
+        <br><label class="overl">namecol:main</label>
+        <div id="text_main"></div>
+        <br><label class="overl">namecol:join/x</label>
+        <div id="text_join"></div>
     </section>
 </body>
 <script>
     let text_load = '';
+    let text_main = '';
+    let text_join = '';
 
     let colours = ['black','dark_blue','dark_green','dark_aqua','dark_red','dark_purple','gold','gray','dark_gray','blue','green','aqua','red','light_purple','yellow','white'];
 
@@ -30,7 +36,15 @@
         team add col_${colours[i]}<br>
         team modify col_${colours[i]} color ${colours[i]}<br>
         scoreboard objectives add col_${colours[i]} trigger<br>`;
+        text_main = `${text_main}## ${colours[i]}<br>
+        scoreboard players enable @a col_${colours[i]}<br>
+        execute as @a if score @s col_${colours[i]} matches 1.. run function namecol:join/${colours[i]}<br>`;
+        text_join = `${text_join}## ${colours[i]}<br>
+        team join col_${colours[i]} @s<br>
+        scoreboard players reset @s col_${colours[i]}<br><br>`;
     }
 
     document.getElementById('text_load').innerHTML = text_load;
+    document.getElementById('text_main').innerHTML = text_main;
+    document.getElementById('text_join').innerHTML = text_join;
 </script>
