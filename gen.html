@@ -11,19 +11,17 @@
 
     <title>Name Colours generate</title>
 </head>
-<body class="dark">
-    <section class="download-steps header-bar" style="top: initial; height: 86px;">
-        <span class="logo"><h5>Name colour generator</h5></span>
-    </section>
-    <section style="padding: 15px var(--padding-min);">
-        <br><label class="overl">namecol:load</label>
-        <div id="text_load"></div>
-    </section>
+<body class="dark" style="overflow: visible; user-select: auto; padding: 20px; color: #fff">
+    <br><label class="overl">namecol:load</label>
+    <div id="text_load"></div>
+    <br><label class="overl">namecol:ui/set</label>
+    <div id="text_set"></div>
 </body>
 <script>
     let text_load = '';
+    let text_set = '';
 
-    let colours = ['black','dark_blue','dark_green','dark_aqua','dark_red','dark_purple','gold','gray','dark_gray','blue','green','aqua','red','light_purple','yellow','white'];
+    let colours = ['red','gold','yellow','green','dark_green','dark_aqua','aqua','blue','dark_blue','dark_purple','dark_red','light_purple','white','gray','dark_gray','black'];
     let pronouns = ['','he_him','she_her','they_them','he_they','she_they','it_its','he_it','she_it','they_it','he_she_they','any','by_name','neo'];
 
     for (let colour in colours) {
@@ -33,15 +31,20 @@
                 text_load = `${text_load}<br>## ${colours[colour]}<br>
                 team add clover.${colours[colour]}<br>
                 team modify clover.${colours[colour]} color ${colours[colour]}<br>`;
+                text_set = `${text_set}<br>## ${colours[colour]}<br>
+                execute if score @s clover.colour matches ${parseInt(colour) + 2} if score @s clover.pronoun matches 30 run team join clover.${colours[colour]}<br>`;
             } else {
                 // pronouns
                 text_load = `${text_load}## ${colours[colour]} (${pronouns[pronoun]})<br>
                 team add clover.${colours[colour]}_${pronouns[pronoun]}<br>
-                team modify clover.${colours[colour]} color ${colours[colour]}<br>
+                team modify clover.${colours[colour]}_${pronouns[pronoun]} color ${colours[colour]}<br>
                 team modify clover.${colours[colour]}_${pronouns[pronoun]} suffix {"text":" • ${pronouns[pronoun].replaceAll('_','/')}","color":"gray"}<br>`;
+                text_set = `${text_set}## ${colours[colour]} (${pronouns[pronoun]})<br>
+                execute if score @s clover.colour matches ${parseInt(colour) + 2} if score @s clover.pronoun matches ${parseInt(pronoun) + 30} run team join clover.${colours[colour]}_${pronouns[pronoun]}<br>`;
             }
         }
     }
 
     document.getElementById('text_load').innerHTML = text_load;
+    document.getElementById('text_set').innerHTML = text_set;
 </script>
