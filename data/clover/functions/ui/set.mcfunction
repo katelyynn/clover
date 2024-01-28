@@ -2,7 +2,10 @@
 
 
 execute if score @s clover matches 2..29 run scoreboard players operation @s clover.colour = @s clover
-execute if score @s clover matches 30.. run scoreboard players operation @s clover.pronoun = @s clover
+execute if score @s clover matches 30..199 run scoreboard players operation @s clover.pronoun = @s clover
+
+execute if score @s clover matches 200 if score @s clover.page matches 1.. run scoreboard players remove @s clover.page 1
+execute if score @s clover matches 201 if score @s clover.page matches ..0 run scoreboard players add @s clover.page 1
 
 function clover:ui/show
 playsound minecraft:block.amethyst_block.resonate player @s
