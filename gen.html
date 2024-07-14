@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="https://plexion.dev/css/reset.css">
-    <link rel="stylesheet" href="https://plexion.dev/css/style.css">
-
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
@@ -11,7 +8,7 @@
 
     <title>Name Colours generate</title>
 </head>
-<body class="dark" style="overflow: visible; user-select: auto; padding: 20px; color: #fff">
+<body class="dark" style="overflow: visible; user-select: auto; padding: 20px; color: #fff; background: #000">
     <br><label class="overl">namecol:load</label>
     <div id="text_load"></div>
     <br><label class="overl">namecol:ui/set</label>
@@ -22,7 +19,7 @@
     let text_set = '';
 
     let colours = ['red','gold','yellow','green','dark_green','dark_aqua','aqua','blue','dark_blue','dark_purple','dark_red','light_purple','white','gray','dark_gray','black'];
-    let pronouns = ['','he_him','she_her','they_them','he_they','she_they','it_its','he_it','she_it','they_it','he_she_they','any','by_name','neo'];
+    let pronouns = ['','he_him','she_her','they_them','he_they','she_they','it_its','he_it','she_it','they_it','he_she_they','any','by_name','neo','he_she','she_he'];
 
     for (let colour in colours) {
         for (let pronoun in pronouns) {

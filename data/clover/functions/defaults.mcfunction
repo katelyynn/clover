@@ -61,6 +61,14 @@ team modify clover.red_by_name suffix {"text":" • by/name","color":"gray"}
 team add clover.red_neo
 team modify clover.red_neo color red
 team modify clover.red_neo suffix {"text":" • neo","color":"gray"}
+## red (he_she)
+team add clover.red_he_she
+team modify clover.red_he_she color red
+team modify clover.red_he_she suffix {"text":" • he/she","color":"gray"}
+## red (she_he)
+team add clover.red_she_he
+team modify clover.red_she_he color red
+team modify clover.red_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## gold
 team add clover.gold
@@ -117,6 +125,14 @@ team modify clover.gold_by_name suffix {"text":" • by/name","color":"gray"}
 team add clover.gold_neo
 team modify clover.gold_neo color gold
 team modify clover.gold_neo suffix {"text":" • neo","color":"gray"}
+## gold (he_she)
+team add clover.gold_he_she
+team modify clover.gold_he_she color gold
+team modify clover.gold_he_she suffix {"text":" • he/she","color":"gray"}
+## gold (she_he)
+team add clover.gold_she_he
+team modify clover.gold_she_he color gold
+team modify clover.gold_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## yellow
 team add clover.yellow
@@ -173,6 +189,14 @@ team modify clover.yellow_by_name suffix {"text":" • by/name","color":"gray"}
 team add clover.yellow_neo
 team modify clover.yellow_neo color yellow
 team modify clover.yellow_neo suffix {"text":" • neo","color":"gray"}
+## yellow (he_she)
+team add clover.yellow_he_she
+team modify clover.yellow_he_she color yellow
+team modify clover.yellow_he_she suffix {"text":" • he/she","color":"gray"}
+## yellow (she_he)
+team add clover.yellow_she_he
+team modify clover.yellow_she_he color yellow
+team modify clover.yellow_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## green
 team add clover.green
@@ -229,6 +253,14 @@ team modify clover.green_by_name suffix {"text":" • by/name","color":"gray"}
 team add clover.green_neo
 team modify clover.green_neo color green
 team modify clover.green_neo suffix {"text":" • neo","color":"gray"}
+## green (he_she)
+team add clover.green_he_she
+team modify clover.green_he_she color green
+team modify clover.green_he_she suffix {"text":" • he/she","color":"gray"}
+## green (she_he)
+team add clover.green_she_he
+team modify clover.green_she_he color green
+team modify clover.green_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## dark_green
 team add clover.dark_green
@@ -285,6 +317,14 @@ team modify clover.dark_green_by_name suffix {"text":" • by/name","color":"gra
 team add clover.dark_green_neo
 team modify clover.dark_green_neo color dark_green
 team modify clover.dark_green_neo suffix {"text":" • neo","color":"gray"}
+## dark_green (he_she)
+team add clover.dark_green_he_she
+team modify clover.dark_green_he_she color dark_green
+team modify clover.dark_green_he_she suffix {"text":" • he/she","color":"gray"}
+## dark_green (she_he)
+team add clover.dark_green_she_he
+team modify clover.dark_green_she_he color dark_green
+team modify clover.dark_green_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## dark_aqua
 team add clover.dark_aqua
@@ -341,6 +381,14 @@ team modify clover.dark_aqua_by_name suffix {"text":" • by/name","color":"gray
 team add clover.dark_aqua_neo
 team modify clover.dark_aqua_neo color dark_aqua
 team modify clover.dark_aqua_neo suffix {"text":" • neo","color":"gray"}
+## dark_aqua (he_she)
+team add clover.dark_aqua_he_she
+team modify clover.dark_aqua_he_she color dark_aqua
+team modify clover.dark_aqua_he_she suffix {"text":" • he/she","color":"gray"}
+## dark_aqua (she_he)
+team add clover.dark_aqua_she_he
+team modify clover.dark_aqua_she_he color dark_aqua
+team modify clover.dark_aqua_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## aqua
 team add clover.aqua
@@ -397,6 +445,14 @@ team modify clover.aqua_by_name suffix {"text":" • by/name","color":"gray"}
 team add clover.aqua_neo
 team modify clover.aqua_neo color aqua
 team modify clover.aqua_neo suffix {"text":" • neo","color":"gray"}
+## aqua (he_she)
+team add clover.aqua_he_she
+team modify clover.aqua_he_she color aqua
+team modify clover.aqua_he_she suffix {"text":" • he/she","color":"gray"}
+## aqua (she_he)
+team add clover.aqua_she_he
+team modify clover.aqua_she_he color aqua
+team modify clover.aqua_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## blue
 team add clover.blue
@@ -453,6 +509,14 @@ team modify clover.blue_by_name suffix {"text":" • by/name","color":"gray"}
 team add clover.blue_neo
 team modify clover.blue_neo color blue
 team modify clover.blue_neo suffix {"text":" • neo","color":"gray"}
+## blue (he_she)
+team add clover.blue_he_she
+team modify clover.blue_he_she color blue
+team modify clover.blue_he_she suffix {"text":" • he/she","color":"gray"}
+## blue (she_he)
+team add clover.blue_she_he
+team modify clover.blue_she_he color blue
+team modify clover.blue_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## dark_blue
 team add clover.dark_blue
@@ -509,6 +573,14 @@ team modify clover.dark_blue_by_name suffix {"text":" • by/name","color":"gray
 team add clover.dark_blue_neo
 team modify clover.dark_blue_neo color dark_blue
 team modify clover.dark_blue_neo suffix {"text":" • neo","color":"gray"}
+## dark_blue (he_she)
+team add clover.dark_blue_he_she
+team modify clover.dark_blue_he_she color dark_blue
+team modify clover.dark_blue_he_she suffix {"text":" • he/she","color":"gray"}
+## dark_blue (she_he)
+team add clover.dark_blue_she_he
+team modify clover.dark_blue_she_he color dark_blue
+team modify clover.dark_blue_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## dark_purple
 team add clover.dark_purple
@@ -565,6 +637,14 @@ team modify clover.dark_purple_by_name suffix {"text":" • by/name","color":"gr
 team add clover.dark_purple_neo
 team modify clover.dark_purple_neo color dark_purple
 team modify clover.dark_purple_neo suffix {"text":" • neo","color":"gray"}
+## dark_purple (he_she)
+team add clover.dark_purple_he_she
+team modify clover.dark_purple_he_she color dark_purple
+team modify clover.dark_purple_he_she suffix {"text":" • he/she","color":"gray"}
+## dark_purple (she_he)
+team add clover.dark_purple_she_he
+team modify clover.dark_purple_she_he color dark_purple
+team modify clover.dark_purple_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## dark_red
 team add clover.dark_red
@@ -621,6 +701,14 @@ team modify clover.dark_red_by_name suffix {"text":" • by/name","color":"gray"
 team add clover.dark_red_neo
 team modify clover.dark_red_neo color dark_red
 team modify clover.dark_red_neo suffix {"text":" • neo","color":"gray"}
+## dark_red (he_she)
+team add clover.dark_red_he_she
+team modify clover.dark_red_he_she color dark_red
+team modify clover.dark_red_he_she suffix {"text":" • he/she","color":"gray"}
+## dark_red (she_he)
+team add clover.dark_red_she_he
+team modify clover.dark_red_she_he color dark_red
+team modify clover.dark_red_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## light_purple
 team add clover.light_purple
@@ -677,6 +765,14 @@ team modify clover.light_purple_by_name suffix {"text":" • by/name","color":"g
 team add clover.light_purple_neo
 team modify clover.light_purple_neo color light_purple
 team modify clover.light_purple_neo suffix {"text":" • neo","color":"gray"}
+## light_purple (he_she)
+team add clover.light_purple_he_she
+team modify clover.light_purple_he_she color light_purple
+team modify clover.light_purple_he_she suffix {"text":" • he/she","color":"gray"}
+## light_purple (she_he)
+team add clover.light_purple_she_he
+team modify clover.light_purple_she_he color light_purple
+team modify clover.light_purple_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## white
 team add clover.white
@@ -733,6 +829,14 @@ team modify clover.white_by_name suffix {"text":" • by/name","color":"gray"}
 team add clover.white_neo
 team modify clover.white_neo color white
 team modify clover.white_neo suffix {"text":" • neo","color":"gray"}
+## white (he_she)
+team add clover.white_he_she
+team modify clover.white_he_she color white
+team modify clover.white_he_she suffix {"text":" • he/she","color":"gray"}
+## white (she_he)
+team add clover.white_she_he
+team modify clover.white_she_he color white
+team modify clover.white_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## gray
 team add clover.gray
@@ -789,6 +893,14 @@ team modify clover.gray_by_name suffix {"text":" • by/name","color":"gray"}
 team add clover.gray_neo
 team modify clover.gray_neo color gray
 team modify clover.gray_neo suffix {"text":" • neo","color":"gray"}
+## gray (he_she)
+team add clover.gray_he_she
+team modify clover.gray_he_she color gray
+team modify clover.gray_he_she suffix {"text":" • he/she","color":"gray"}
+## gray (she_he)
+team add clover.gray_she_he
+team modify clover.gray_she_he color gray
+team modify clover.gray_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## dark_gray
 team add clover.dark_gray
@@ -845,6 +957,14 @@ team modify clover.dark_gray_by_name suffix {"text":" • by/name","color":"gray
 team add clover.dark_gray_neo
 team modify clover.dark_gray_neo color dark_gray
 team modify clover.dark_gray_neo suffix {"text":" • neo","color":"gray"}
+## dark_gray (he_she)
+team add clover.dark_gray_he_she
+team modify clover.dark_gray_he_she color dark_gray
+team modify clover.dark_gray_he_she suffix {"text":" • he/she","color":"gray"}
+## dark_gray (she_he)
+team add clover.dark_gray_she_he
+team modify clover.dark_gray_she_he color dark_gray
+team modify clover.dark_gray_she_he suffix {"text":" • she/he","color":"gray"}
 
 ## black
 team add clover.black
@@ -901,3 +1021,11 @@ team modify clover.black_by_name suffix {"text":" • by/name","color":"gray"}
 team add clover.black_neo
 team modify clover.black_neo color black
 team modify clover.black_neo suffix {"text":" • neo","color":"gray"}
+## black (he_she)
+team add clover.black_he_she
+team modify clover.black_he_she color black
+team modify clover.black_he_she suffix {"text":" • he/she","color":"gray"}
+## black (she_he)
+team add clover.black_she_he
+team modify clover.black_she_he color black
+team modify clover.black_she_he suffix {"text":" • she/he","color":"gray"}
