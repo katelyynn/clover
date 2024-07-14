@@ -24,5 +24,5 @@ tellraw @s ["\n",{"text":"←","color":"white","clickEvent":{"action":"run_comma
 scoreboard players remove @s clover.page 1
 
 execute unless score @s clover.colour matches 0.. run scoreboard players set @s clover.colour 14
-execute unless score @s clover.pronoun matches 30.. run scoreboard players set @s clover.colour 30
+execute unless score @s clover.pronoun matches 30.. run scoreboard players set @s clover.pronoun 30
 scoreboard players reset @s clover
