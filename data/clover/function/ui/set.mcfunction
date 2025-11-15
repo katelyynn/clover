@@ -43,6 +43,12 @@ execute if score @s clover.colour matches 2 if score @s clover.pronoun matches 4
 execute if score @s clover.colour matches 2 if score @s clover.pronoun matches 44 run team join clover.red_he_she
 ## red (she_he)
 execute if score @s clover.colour matches 2 if score @s clover.pronoun matches 45 run team join clover.red_she_he
+## red (they_he)
+execute if score @s clover.colour matches 2 if score @s clover.pronoun matches 46 run team join clover.red_they_he
+## red (they_she)
+execute if score @s clover.colour matches 2 if score @s clover.pronoun matches 47 run team join clover.red_they_she
+## red (mirror)
+execute if score @s clover.colour matches 2 if score @s clover.pronoun matches 48 run team join clover.red_mirror
 
 ## gold
 execute if score @s clover.colour matches 3 if score @s clover.pronoun matches 30 run team join clover.gold
@@ -76,6 +82,12 @@ execute if score @s clover.colour matches 3 if score @s clover.pronoun matches 4
 execute if score @s clover.colour matches 3 if score @s clover.pronoun matches 44 run team join clover.gold_he_she
 ## gold (she_he)
 execute if score @s clover.colour matches 3 if score @s clover.pronoun matches 45 run team join clover.gold_she_he
+## gold (they_he)
+execute if score @s clover.colour matches 3 if score @s clover.pronoun matches 46 run team join clover.gold_they_he
+## gold (they_she)
+execute if score @s clover.colour matches 3 if score @s clover.pronoun matches 47 run team join clover.gold_they_she
+## gold (mirror)
+execute if score @s clover.colour matches 3 if score @s clover.pronoun matches 48 run team join clover.gold_mirror
 
 ## yellow
 execute if score @s clover.colour matches 4 if score @s clover.pronoun matches 30 run team join clover.yellow
@@ -109,6 +121,12 @@ execute if score @s clover.colour matches 4 if score @s clover.pronoun matches 4
 execute if score @s clover.colour matches 4 if score @s clover.pronoun matches 44 run team join clover.yellow_he_she
 ## yellow (she_he)
 execute if score @s clover.colour matches 4 if score @s clover.pronoun matches 45 run team join clover.yellow_she_he
+## yellow (they_he)
+execute if score @s clover.colour matches 4 if score @s clover.pronoun matches 46 run team join clover.yellow_they_he
+## yellow (they_she)
+execute if score @s clover.colour matches 4 if score @s clover.pronoun matches 47 run team join clover.yellow_they_she
+## yellow (mirror)
+execute if score @s clover.colour matches 4 if score @s clover.pronoun matches 48 run team join clover.yellow_mirror
 
 ## green
 execute if score @s clover.colour matches 5 if score @s clover.pronoun matches 30 run team join clover.green
@@ -142,6 +160,12 @@ execute if score @s clover.colour matches 5 if score @s clover.pronoun matches 4
 execute if score @s clover.colour matches 5 if score @s clover.pronoun matches 44 run team join clover.green_he_she
 ## green (she_he)
 execute if score @s clover.colour matches 5 if score @s clover.pronoun matches 45 run team join clover.green_she_he
+## green (they_he)
+execute if score @s clover.colour matches 5 if score @s clover.pronoun matches 46 run team join clover.green_they_he
+## green (they_she)
+execute if score @s clover.colour matches 5 if score @s clover.pronoun matches 47 run team join clover.green_they_she
+## green (mirror)
+execute if score @s clover.colour matches 5 if score @s clover.pronoun matches 48 run team join clover.green_mirror
 
 ## dark_green
 execute if score @s clover.colour matches 6 if score @s clover.pronoun matches 30 run team join clover.dark_green
@@ -175,6 +199,12 @@ execute if score @s clover.colour matches 6 if score @s clover.pronoun matches 4
 execute if score @s clover.colour matches 6 if score @s clover.pronoun matches 44 run team join clover.dark_green_he_she
 ## dark_green (she_he)
 execute if score @s clover.colour matches 6 if score @s clover.pronoun matches 45 run team join clover.dark_green_she_he
+## dark_green (they_he)
+execute if score @s clover.colour matches 6 if score @s clover.pronoun matches 46 run team join clover.dark_green_they_he
+## dark_green (they_she)
+execute if score @s clover.colour matches 6 if score @s clover.pronoun matches 47 run team join clover.dark_green_they_she
+## dark_green (mirror)
+execute if score @s clover.colour matches 6 if score @s clover.pronoun matches 48 run team join clover.dark_green_mirror
 
 ## dark_aqua
 execute if score @s clover.colour matches 7 if score @s clover.pronoun matches 30 run team join clover.dark_aqua
@@ -208,6 +238,12 @@ execute if score @s clover.colour matches 7 if score @s clover.pronoun matches 4
 execute if score @s clover.colour matches 7 if score @s clover.pronoun matches 44 run team join clover.dark_aqua_he_she
 ## dark_aqua (she_he)
 execute if score @s clover.colour matches 7 if score @s clover.pronoun matches 45 run team join clover.dark_aqua_she_he
+## dark_aqua (they_he)
+execute if score @s clover.colour matches 7 if score @s clover.pronoun matches 46 run team join clover.dark_aqua_they_he
+## dark_aqua (they_she)
+execute if score @s clover.colour matches 7 if score @s clover.pronoun matches 47 run team join clover.dark_aqua_they_she
+## dark_aqua (mirror)
+execute if score @s clover.colour matches 7 if score @s clover.pronoun matches 48 run team join clover.dark_aqua_mirror
 
 ## aqua
 execute if score @s clover.colour matches 8 if score @s clover.pronoun matches 30 run team join clover.aqua
@@ -241,6 +277,12 @@ execute if score @s clover.colour matches 8 if score @s clover.pronoun matches 4
 execute if score @s clover.colour matches 8 if score @s clover.pronoun matches 44 run team join clover.aqua_he_she
 ## aqua (she_he)
 execute if score @s clover.colour matches 8 if score @s clover.pronoun matches 45 run team join clover.aqua_she_he
+## aqua (they_he)
+execute if score @s clover.colour matches 8 if score @s clover.pronoun matches 46 run team join clover.aqua_they_he
+## aqua (they_she)
+execute if score @s clover.colour matches 8 if score @s clover.pronoun matches 47 run team join clover.aqua_they_she
+## aqua (mirror)
+execute if score @s clover.colour matches 8 if score @s clover.pronoun matches 48 run team join clover.aqua_mirror
 
 ## blue
 execute if score @s clover.colour matches 9 if score @s clover.pronoun matches 30 run team join clover.blue
@@ -274,6 +316,12 @@ execute if score @s clover.colour matches 9 if score @s clover.pronoun matches 4
 execute if score @s clover.colour matches 9 if score @s clover.pronoun matches 44 run team join clover.blue_he_she
 ## blue (she_he)
 execute if score @s clover.colour matches 9 if score @s clover.pronoun matches 45 run team join clover.blue_she_he
+## blue (they_he)
+execute if score @s clover.colour matches 9 if score @s clover.pronoun matches 46 run team join clover.blue_they_he
+## blue (they_she)
+execute if score @s clover.colour matches 9 if score @s clover.pronoun matches 47 run team join clover.blue_they_she
+## blue (mirror)
+execute if score @s clover.colour matches 9 if score @s clover.pronoun matches 48 run team join clover.blue_mirror
 
 ## dark_blue
 execute if score @s clover.colour matches 10 if score @s clover.pronoun matches 30 run team join clover.dark_blue
@@ -307,6 +355,12 @@ execute if score @s clover.colour matches 10 if score @s clover.pronoun matches 
 execute if score @s clover.colour matches 10 if score @s clover.pronoun matches 44 run team join clover.dark_blue_he_she
 ## dark_blue (she_he)
 execute if score @s clover.colour matches 10 if score @s clover.pronoun matches 45 run team join clover.dark_blue_she_he
+## dark_blue (they_he)
+execute if score @s clover.colour matches 10 if score @s clover.pronoun matches 46 run team join clover.dark_blue_they_he
+## dark_blue (they_she)
+execute if score @s clover.colour matches 10 if score @s clover.pronoun matches 47 run team join clover.dark_blue_they_she
+## dark_blue (mirror)
+execute if score @s clover.colour matches 10 if score @s clover.pronoun matches 48 run team join clover.dark_blue_mirror
 
 ## dark_purple
 execute if score @s clover.colour matches 11 if score @s clover.pronoun matches 30 run team join clover.dark_purple
@@ -340,6 +394,12 @@ execute if score @s clover.colour matches 11 if score @s clover.pronoun matches 
 execute if score @s clover.colour matches 11 if score @s clover.pronoun matches 44 run team join clover.dark_purple_he_she
 ## dark_purple (she_he)
 execute if score @s clover.colour matches 11 if score @s clover.pronoun matches 45 run team join clover.dark_purple_she_he
+## dark_purple (they_he)
+execute if score @s clover.colour matches 11 if score @s clover.pronoun matches 46 run team join clover.dark_purple_they_he
+## dark_purple (they_she)
+execute if score @s clover.colour matches 11 if score @s clover.pronoun matches 47 run team join clover.dark_purple_they_she
+## dark_purple (mirror)
+execute if score @s clover.colour matches 11 if score @s clover.pronoun matches 48 run team join clover.dark_purple_mirror
 
 ## dark_red
 execute if score @s clover.colour matches 12 if score @s clover.pronoun matches 30 run team join clover.dark_red
@@ -373,6 +433,12 @@ execute if score @s clover.colour matches 12 if score @s clover.pronoun matches 
 execute if score @s clover.colour matches 12 if score @s clover.pronoun matches 44 run team join clover.dark_red_he_she
 ## dark_red (she_he)
 execute if score @s clover.colour matches 12 if score @s clover.pronoun matches 45 run team join clover.dark_red_she_he
+## dark_red (they_he)
+execute if score @s clover.colour matches 12 if score @s clover.pronoun matches 46 run team join clover.dark_red_they_he
+## dark_red (they_she)
+execute if score @s clover.colour matches 12 if score @s clover.pronoun matches 47 run team join clover.dark_red_they_she
+## dark_red (mirror)
+execute if score @s clover.colour matches 12 if score @s clover.pronoun matches 48 run team join clover.dark_red_mirror
 
 ## light_purple
 execute if score @s clover.colour matches 13 if score @s clover.pronoun matches 30 run team join clover.light_purple
@@ -406,6 +472,12 @@ execute if score @s clover.colour matches 13 if score @s clover.pronoun matches 
 execute if score @s clover.colour matches 13 if score @s clover.pronoun matches 44 run team join clover.light_purple_he_she
 ## light_purple (she_he)
 execute if score @s clover.colour matches 13 if score @s clover.pronoun matches 45 run team join clover.light_purple_she_he
+## light_purple (they_he)
+execute if score @s clover.colour matches 13 if score @s clover.pronoun matches 46 run team join clover.light_purple_they_he
+## light_purple (they_she)
+execute if score @s clover.colour matches 13 if score @s clover.pronoun matches 47 run team join clover.light_purple_they_she
+## light_purple (mirror)
+execute if score @s clover.colour matches 13 if score @s clover.pronoun matches 48 run team join clover.light_purple_mirror
 
 ## white
 execute if score @s clover.colour matches 14 if score @s clover.pronoun matches 30 run team join clover.white
@@ -439,6 +511,12 @@ execute if score @s clover.colour matches 14 if score @s clover.pronoun matches 
 execute if score @s clover.colour matches 14 if score @s clover.pronoun matches 44 run team join clover.white_he_she
 ## white (she_he)
 execute if score @s clover.colour matches 14 if score @s clover.pronoun matches 45 run team join clover.white_she_he
+## white (they_he)
+execute if score @s clover.colour matches 14 if score @s clover.pronoun matches 46 run team join clover.white_they_he
+## white (they_she)
+execute if score @s clover.colour matches 14 if score @s clover.pronoun matches 47 run team join clover.white_they_she
+## white (mirror)
+execute if score @s clover.colour matches 14 if score @s clover.pronoun matches 48 run team join clover.white_mirror
 
 ## gray
 execute if score @s clover.colour matches 15 if score @s clover.pronoun matches 30 run team join clover.gray
@@ -472,6 +550,12 @@ execute if score @s clover.colour matches 15 if score @s clover.pronoun matches 
 execute if score @s clover.colour matches 15 if score @s clover.pronoun matches 44 run team join clover.gray_he_she
 ## gray (she_he)
 execute if score @s clover.colour matches 15 if score @s clover.pronoun matches 45 run team join clover.gray_she_he
+## gray (they_he)
+execute if score @s clover.colour matches 15 if score @s clover.pronoun matches 46 run team join clover.gray_they_he
+## gray (they_she)
+execute if score @s clover.colour matches 15 if score @s clover.pronoun matches 47 run team join clover.gray_they_she
+## gray (mirror)
+execute if score @s clover.colour matches 15 if score @s clover.pronoun matches 48 run team join clover.gray_mirror
 
 ## dark_gray
 execute if score @s clover.colour matches 16 if score @s clover.pronoun matches 30 run team join clover.dark_gray
@@ -505,6 +589,12 @@ execute if score @s clover.colour matches 16 if score @s clover.pronoun matches 
 execute if score @s clover.colour matches 16 if score @s clover.pronoun matches 44 run team join clover.dark_gray_he_she
 ## dark_gray (she_he)
 execute if score @s clover.colour matches 16 if score @s clover.pronoun matches 45 run team join clover.dark_gray_she_he
+## dark_gray (they_he)
+execute if score @s clover.colour matches 16 if score @s clover.pronoun matches 46 run team join clover.dark_gray_they_he
+## dark_gray (they_she)
+execute if score @s clover.colour matches 16 if score @s clover.pronoun matches 47 run team join clover.dark_gray_they_she
+## dark_gray (mirror)
+execute if score @s clover.colour matches 16 if score @s clover.pronoun matches 48 run team join clover.dark_gray_mirror
 
 ## black
 execute if score @s clover.colour matches 17 if score @s clover.pronoun matches 30 run team join clover.black
@@ -538,3 +628,9 @@ execute if score @s clover.colour matches 17 if score @s clover.pronoun matches 
 execute if score @s clover.colour matches 17 if score @s clover.pronoun matches 44 run team join clover.black_he_she
 ## black (she_he)
 execute if score @s clover.colour matches 17 if score @s clover.pronoun matches 45 run team join clover.black_she_he
+## black (they_he)
+execute if score @s clover.colour matches 17 if score @s clover.pronoun matches 46 run team join clover.black_they_he
+## black (they_she)
+execute if score @s clover.colour matches 17 if score @s clover.pronoun matches 47 run team join clover.black_they_she
+## black (mirror)
+execute if score @s clover.colour matches 17 if score @s clover.pronoun matches 48 run team join clover.black_mirror
